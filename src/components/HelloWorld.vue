@@ -1,4 +1,3 @@
-import json from './json/data.json',
 <template>
   <div class="dvd-library">
     <h1>DVDthèque</h1>
@@ -26,7 +25,7 @@ import json from './json/data.json',
           <td>{{ dvd.year }}</td>
           <td>{{ dvd.language }}</td>
           <td>{{ dvd.actors.join(', ') }}</td>
-          <td> <router-link :to="{path:'/affiche/'+dvd.id}">Ouga</router-link></td>
+          <td> <router-link :to="{path:'/affiche/'+dvd.id}">Affiche</router-link></td>
         </tr>
       </tbody>
     </table>
