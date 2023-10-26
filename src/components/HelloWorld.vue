@@ -26,7 +26,7 @@ import json from './json/data.json',
           <td>{{ dvd.year }}</td>
           <td>{{ dvd.language }}</td>
           <td>{{ dvd.actors.join(', ') }}</td>
-          <td> <router-link >Affiche</router-link></td>
+          <td> <router-link :to="{path:'/affiche/'+dvd.id}">Ouga</router-link></td>
         </tr>
       </tbody>
     </table>
@@ -34,37 +34,36 @@ import json from './json/data.json',
 </template>
 
 <script>
-import dvds from './data.json'
 export default {
-  data() {
+  data () {
     return {
       titleFilter: '',
       yearFilter: '',
       languageFilter: '',
       actorFilter: '',
-      DVDs: dvds,
-    };
+      DVDs: require('../assets/data.json')
+    }
   },
   computed: {
-    filteredDVDs() {
-      let filtered = this.DVDs;
+    filteredDVDs () {
+      let filtered = this.DVDs
 
       if (this.titleFilter) {
         filtered = filtered.filter(dvd =>
           dvd.title.toLowerCase().includes(this.titleFilter.toLowerCase())
-        );
+        )
       }
 
       if (this.yearFilter) {
         filtered = filtered.filter(dvd =>
           dvd.year.toString().includes(this.yearFilter)
-        );
+        )
       }
 
       if (this.languageFilter) {
         filtered = filtered.filter(dvd =>
           dvd.language.toLowerCase().includes(this.languageFilter.toLowerCase())
-        );
+        )
       }
 
       if (this.actorFilter) {
@@ -72,36 +71,36 @@ export default {
           dvd.actors.some(actor =>
             actor.toLowerCase().includes(this.actorFilter.toLowerCase())
           )
-        );
+        )
       }
 
-      return filtered;
+      return filtered
     }
   },
   filters: {
-    capitalizeFirstAndLast(value) {
-      if (!value) return '';
+    capitalizeFirstAndLast (value) {
+      if (!value) return ''
       return (
         value.charAt(0).toUpperCase() +
         value.slice(1, -1) +
         value.slice(-1).toUpperCase()
-      );
+      )
     }
   },
   directives: {
     greenOnHover: {
-      bind(el) {
-        el.style.transition = 'color 0.3s';
-        el.addEventListener('mouseenter', () => {
-          el.style.color = 'green';
-        });
-        el.addEventListener('mouseleave', () => {
-          el.style.color = '';
-        });
+      bind (elt) {
+        elt.style.transition = 'color 0.3s'
+        elt.addEventListener('mouseenter', () => {
+          elt.style.color = 'green'
+        })
+        elt.addEventListener('mouseleave', () => {
+          elt.style.color = ''
+        })
       }
     }
   }
-};
+}
 </script>
 
 <style scoped>

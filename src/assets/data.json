@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "Le Seigneur des Anneaux : La Communauté de l'Anneau",
+      "year": 2001,
+      "language": "Anglais",
+      "actors": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+      "affiche": "https://images.affiches-et-posters.com//albums/3/2897/medium/AJ7538.JPG"
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "year": 2010,
+      "language": "Anglais",
+      "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+      "affiche": "https://m.media-amazon.com/images/I/91b3Xtjt0IL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "language": "Anglais",
+      "actors": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+      "affiche": "https://images.affiches-et-posters.com//albums/3/6327/medium/affiche-film-pulp-fiction-67842.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Matrix",
+      "year": 1999,
+      "language": "Anglais",
+      "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+      "affiche": "https://www.closeupshop.fr/media/oart_0/oart_m/oart_14146/1023019_G524780.JPG"
+    },
+    {
+      "id": 5,
+      "title": "Titanic",
+      "year": 1997,
+      "language": "Anglais",
+      "actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+      "affiche": "https://m.media-amazon.com/images/I/71-B0aUFxYL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Le Parrain",
+      "year": 1972,
+      "language": "Anglais",
+      "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+      "affiche": "https://fr.web.img2.acsta.net/pictures/22/01/14/08/39/1848157.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "language": "Anglais",
+      "actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+      "affiche": "https://images.affiches-et-posters.com//albums/3/2670/medium/2670-affiche-du-film-forrest-gump.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Gladiator",
+      "year": 2000,
+      "language": "Anglais",
+      "actors": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+      "affiche": "https://images.affiches-et-posters.com//albums/3/2619/medium/affiche-film-gladiator-164.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Fight Club",
+      "year": 1999,
+      "language": "Anglais",
+      "actors": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+      "affiche": "https://m.media-amazon.com/images/I/71zEIB3ekZL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Jurassic Park",
+      "year": 1993,
+      "language": "Anglais",
+      "actors": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
+      "affiche": "https://images.affiches-et-posters.com//albums/3/2899/medium/2899-affiche-film-jurassic-park.jpg"
+    }
+  ]
+  
